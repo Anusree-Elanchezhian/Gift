@@ -1,0 +1,114 @@
+/* abirthday.css */
+
+.homea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f4f4f4;
+}
+
+.sidebar-contenta {
+  width: 300px;
+}
+
+.bday-maina {
+  width: 150%;
+  max-width: 800px;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.birthday-card-rowa {
+  padding-top: 20%;
+  margin-left: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.birthday-card {
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.birthday-card-imagea {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.birthday-card-titlea {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.birthday-card-descriptiona {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.birthday-card-ratinga {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.edit-button, .delete-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.admin-form {
+  margin-top: 30px;
+  padding: ;
+}
+
+.admin-form h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.admin-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-form button:hover {
+  background-color: #218838;
+}

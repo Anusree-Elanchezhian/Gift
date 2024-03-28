@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 45px;
+    background-color:white;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    width: 100%;
+    top: 0;
+  }
+  .menu-icon {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+   .sidebar-links li a:hover {
+      color: #ac2035;
+    }
+  .nav-links {
+    display: flex;
+    padding-left: 30%;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color:black;
+    margin-left: 40px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .features {
+    display: flex;
+  }
+  /* navbar.css */
+.profile-dropdown{
+  padding-left: 7%;
+}
+/* Style for the profile options dropdown */
+.profile-options {
+  position: absolute;
+  top: 13%; /* Adjust this value according to your design */
+  right: 2%;
+  background-color: rgb(203, 197, 197);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for each option in the dropdown */
+.profile-options a {
+  margin-left: -1%;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style for each option on hover */
+.profile-options a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Hide the profile options by default */
+.profile-options.hidden {
+  display: none;
+}

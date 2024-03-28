@@ -1,0 +1,144 @@
+profile.css
+
+.home11{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/ddlw9iej1/image/upload/v1708714326/bg_awsrdv.jpg');
+
+}
+
+.sidebar-contentpr{
+  display: flex;
+  margin-top: 2%;
+  margin-left:25% ;
+  flex: 1;
+  padding: 20px;
+  /* background-image: url('https://res.cloudinary.com/ddlw9iej1/image/upload/v1708714326/bg_awsrdv.jpg'); */
+}
+
+.profile {
+  margin-top: 10%;
+  border-radius: 10px;
+  padding: 20px;
+  height: 200%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details {
+  flex-grow: 1;
+  flex: 1;
+}
+
+.input-field1 {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.additional-details {
+  margin-top: 20px;
+}
+
+.additional-details p {
+  margin-bottom: 5px;
+}
+
+.additional-details a {
+  color: #007bff;
+}
+
+.profile-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button + .button {
+  margin-left: 10px;
+}
+.user-sections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.card1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-content h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-content .price {
+  color: #007bff; /* Change color to your preference */
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-content .buy-button {
+  background-color: #007bff; /* Change color to your preference */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-content .buy-button:hover {
+  background-color: #0056b3; /* Change color to your preference */
+}

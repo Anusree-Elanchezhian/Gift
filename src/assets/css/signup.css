@@ -1,0 +1,75 @@
+.register-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    background-image: url('https://res.cloudinary.com/ddlw9iej1/image/upload/v1708685471/pic3_xmn28g.jpg');
+  }
+  .input-field {
+    margin-bottom: 10px;
+  }
+  
+  .input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-field select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .register-container {
+    width: 300px;
+    padding: 20px;
+    margin-left: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff; /* Set background color */
+  }
+  
+  .register-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-fields input[type="text"],
+  .register-fields input[type="tel"],
+  .register-fields input[type="date"],
+  .register-fields input[type="email"],
+  .register-fields input[type="password"],
+  .register-fields button {
+    width: 100%;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-fields button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .register-fields button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-field{
+    display: flex;
+  }
